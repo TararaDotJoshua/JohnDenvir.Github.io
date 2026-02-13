@@ -50,7 +50,7 @@ const projects = [
     name: 'Seagrass Microbial Community Research',
     summary:
       'Research on microbial communities in seagrass substrates to improve restoration strategy and outcomes.',
-    image: '/seagrass-poster.jpg',
+    image: `${import.meta.env.BASE_URL}seagrass-poster.jpg`,
     objective:
       'Determine how substrate composition influences microbial community development and seagrass performance over time.',
     scope:
